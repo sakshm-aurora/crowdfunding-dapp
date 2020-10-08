@@ -1,0 +1,27 @@
+7th October 2020
+
+variables needed:
+manager - address
+minimumcontribution - unit
+approvers - address[]
+requests - reauests[]
+
+functions:
+campaign  
+contribute
+createRequest
+approveRequest
+finalizeRequest
+
+
+user "skar"  calls approverequest  request1 , request2 , request3
+so he wants to approve only one out of the three requests 
+so approverequest(1) i.e request2 
+
+
+create campaign website ----
+cotract campaign factory
+	functions:
+		createCampaign
+		list all deployed campaigns
+
